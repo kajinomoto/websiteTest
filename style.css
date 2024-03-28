@@ -1,4 +1,49 @@
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    border-bottom: double 20px rgb(81, 145, 255);
+}
+
 h1{
-    color: red;
+    color: rgb(81, 145, 255);
     font-size: 64px;
+}
+
+h3{
+    color: rgb(81, 145, 255);
+    font-size: 32px;
+}
+
+body{
+    color: rgb(81, 145, 255);
+    font-size: 20px;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+
+section{
+    border-bottom: solid 3px #8f8f8f;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+section::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+h5{
+    color: rgb(81, 145, 255);
+    font-size: 32px;
+
 }
